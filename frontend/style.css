@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("iris-flower.jpg");
+    background-color: honeydew;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.horizon {
+    background-color: powderblue;
+    width: 512px;
+    height: 300px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.content{
+    background-color: darksalmon;
+    height: 250px;
+}
